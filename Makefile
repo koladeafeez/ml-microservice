@@ -15,7 +15,7 @@ install:
 	pip install --upgrade pip &&\
 		pip install -r requirements.txt
 
-test:
+# test:
 	# Additional, optional, tests could go here
 	#python -m pytest -vv --cov=myrepolib tests/*.py
 	#python -m pytest --nbval notebook.ipynb
@@ -28,4 +28,4 @@ test:
 	# This should be run from inside a virtualenv
 	# pylint --disable=R,C,W1203 app.py
 
-all: install lint test
+# all: install lint test
